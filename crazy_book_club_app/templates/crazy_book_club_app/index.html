@@ -1,0 +1,24 @@
+{% extends "crazy_book_club_app/base.html" %}
+
+{% block page_header %}
+    <div class="jumbotron">
+        <h1 class="display-3">
+            Crazy Book Club is a club for book lovers.
+        </h1>
+
+        <p class="lead">
+            You can add books to your book list.
+            You can leave your review for a book or see what reviews have been previosly left.
+        </p>
+        
+        <a class="btn btn-lg btn-primary" href="{% url 'users:register' %}" role="button">
+            Register
+        </a>
+    </div>
+{% endblock page_header %}
+
+
+
+
+
+
